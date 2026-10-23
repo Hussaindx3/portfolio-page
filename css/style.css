@@ -1,0 +1,147 @@
+
+/* ---------- Whole page ---------- */
+body {
+  background-color: #f4f6f8;
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+ 
+/* ---------- Header & Footer (footer matches header) ---------- */
+header,
+footer {
+  background-color: #1f3a5f;
+  color: #ffffff;
+  text-align: center;
+  padding: 30px 20px;
+}
+ 
+.subtitle {
+  font-size: 1.2rem;
+  color: #cfe3ff;
+  margin-top: 0;
+}
+ 
+/* ---------- Navigation ---------- */
+nav a {
+  color: #ffffff;
+  margin: 0 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+ 
+nav a:hover {
+  text-decoration: underline;
+}
+ 
+/* ---------- Main & Sections ---------- */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+ 
+section {
+  background-color: #ffffff;
+  border: 2px solid #d0d7de;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 25px 0;
+}
+ 
+/* Different background color for each section (ID selectors) */
+#about {
+  background-color: #eef5ff;
+}
+ 
+#skills {
+  background-color: #eefaf1;
+}
+ 
+#projects {
+  background-color: #fff8e8;
+}
+ 
+#contact {
+  background-color: #f6eeff;
+}
+ 
+/* ---------- Text ---------- */
+h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+ 
+h2 {
+  font-size: 1.8rem;
+  color: #1f3a5f;
+  margin-top: 0;
+}
+ 
+h3 {
+  font-size: 1.3rem;
+  color: #2c5282;
+  margin-top: 0;
+}
+ 
+p {
+  font-size: 1rem;
+}
+ 
+.goal {
+  font-style: italic;
+}
+ 
+.skill {
+  font-weight: bold;
+  color: #2f6f4f;
+}
+ 
+/* ---------- Image ---------- */
+figure {
+  margin: 0 0 15px;
+  text-align: center;
+}
+ 
+img {
+  width: 200px;
+  border: 4px solid #1f3a5f;
+  border-radius: 50%;
+}
+ 
+figcaption {
+  font-size: 0.9rem;
+  color: #555;
+}
+ 
+/* ---------- Skills list ---------- */
+ul {
+  padding-left: 20px;
+}
+ 
+li {
+  margin-bottom: 6px;
+}
+ 
+/* ---------- Project card ---------- */
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0c98a;
+  border-left: 6px solid #e0a800;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+ 
+/* ---------- Links ---------- */
+a {
+  color: #0b5cad;
+}
+ 
+header a,
+footer a {
+  color: #ffffff;
+}
+
